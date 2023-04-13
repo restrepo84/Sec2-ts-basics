@@ -5,6 +5,14 @@
 const person = {
   name: "Steve",
   age: 30,
+  hobbies: ["Sports", "Cooking", "Basketball"],
 };
 
+let favoriteActivities: string[];
+favoriteActivities = ["Sports"];
+
 console.log(person.name);
+
+for (const hobby of person.hobbies) {
+  console.log(hobby);
+}
